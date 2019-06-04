@@ -201,7 +201,7 @@ header nav ul li a {
   font-weight: 600;
   line-height: 60px;
   color: #fff;
-  padding-top: 350px;
+  padding-top: 300px;
   text-align: center;
   text-shadow: 2px 2px 20px #111;
 }
@@ -224,7 +224,7 @@ header nav ul li a {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
-  color: #acc111;
+  color: #7598f8;
   text-align: center;
   display: block;
   padding-top: 20px;
@@ -235,7 +235,7 @@ header nav ul li a {
 @media only screen and (min-width: 1000px) {
   .index-banner {
     width: 100%;
-    height: 100vh;
+    height: 980px;
     background-image: url('img/me1-04.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -244,61 +244,68 @@ header nav ul li a {
   }
   .index-banner h2 {
     font-size: 40px;
-    padding-top: 496px;
+    padding-top: 300px;
   }
 
   .index-banner h1 {
     font-size: 24px;
-    width: 220px;
+    width: 600px;
+    display: block;
+    margin: 0 auto;
   }
 
   .vertical-center a {
     font-family:'Roboto Condensed';
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    color: #acc111;
-    text-align: center;
-    display: block;
-    padding-top: 20px;
-    padding-bottom: 200px;
-    margin: 0 auto;
+    font-size: 24px;
+    padding-top: 50px;
+
   }
 
+}
+
+.vertical-center2 {
+  text-align: center;
 }
 
 .wrapper h2 {
   font-family:'Open sans';
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
-  color: #4d75ce;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  color: #acc111;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  margin: 0 auto;
   text-align: center;
 }
 
-@media only screen and (min-width: 1000px) {
-  .wrapper h2 {
-    font-size: 24px;
-    padding-top: 50px;
-    padding-bottom: 20px;
-    text-align: center;
-  }
+.why-ux {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
 }
 
-.why-ux1 {
+.quote {
+  font-family:'Roboto Condensed';
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 20px;
+  color: #acc111;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-  }
-
-  .why-ux {
-      width: 100%;
-      height: 100vh;
-      background-repeat: no-repeat;
-      background-size: contain;
-      background-position: center;
-      display: block;
-      /* background-image: url('img/why ux-18.png');*/
-    }
+.quote2 {
+  font-family:'Roboto Condensed';
+  font-size: 14px;
+  font-weight: 600;
+  color: #acc111;
+  width: 80%;
+  margin: 0 auto;
+}
 
 .index-links div {
   margin: 16px 16px 0;
@@ -323,15 +330,45 @@ header nav ul li a {
   margin: 0 auto;
 }
 
-  .index-banner {
-    height: 450px;
-  }
+.vertical-center2 {
+  width: 70%;
+  margin: 0 auto;
+}
 
-  .index-banner h1 {
-    display: block;
-    width: 600px;
-    margin: 0 auto;
-  }
+.wrapper h2 {
+  font-size: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.why-ux {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  padding-right: 10px;
+  /* background-image: url('img/why ux-18.png');*/
+}
+
+.quote {
+  font-family:'Roboto Condensed';
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 24px;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.quote2 {
+  font-family:'Roboto Condensed';
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  padding-bottom: 40px;
+}
 
   .index-links {
     /* padding-bottom: 20px; */
@@ -342,7 +379,7 @@ header nav ul li a {
   .index-links div {
     margin: 20px 10px 0;
     height: 220px;
-    background-color: #E8E67D;
+    background-image: url('img/portfolio-17.jpg');
     float: left;
   }
 
