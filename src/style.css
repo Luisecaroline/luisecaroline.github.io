@@ -308,10 +308,38 @@ header nav ul li a {
 }
 
 .index-links div {
-  margin: 16px 16px 0;
-  width: calc(100% - 32px);
-  height: 50px;
-  background-color: #E8E67D;
+  margin: 22px 22px 0;
+  width: calc(100% - 44px);
+  height: 154px;
+  background-color: #acc111;
+}
+
+.index-boxlink-square1 {
+  background-image: url('img/portfolio-01.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.index-boxlink-square1:hover {
+  background-image: url('img/portfolio-01h.jpg');
+}
+
+.index-boxlink-rectangle1 {
+  background-image: url('img/portfolio-18.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+.index-boxlink-square2 {
+  background-image: url('img/portfolio-19.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
 }
 
 .index-links div h3 {
@@ -379,24 +407,67 @@ header nav ul li a {
   .index-links div {
     margin: 20px 10px 0;
     height: 220px;
-    background-image: url('img/portfolio-17.jpg');
     float: left;
   }
 
-  .index-boxlink-square {
+  .index-boxlink-square1 {
     width: calc(25% - 20px)!important;
     /* das important setzt alles darauf davor angewandte ausser Kraft*/
   }
 
-  .index-boxlink-rectangle {
+  .index-boxlink-rectangle1 {
     width: calc(50% - 20px)!important;
     /* das important setzt alles darauf davor angewandte ausser Kraft*/
   }
+
+  .index-boxlink-square2 {
+    width: calc(25% - 20px)!important;
+    /* das important setzt alles darauf davor angewandte ausser Kraft*/
+  }
+
   .index-links div h3 {
     line-height: 220px;
   }
 }
 
+.me2 {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+}
+
+.about-me div {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.about-me div p {
+  font-family:'Roboto';
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 24px;
+  color: #111;
+  text-align: justify;
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-me div {
+    width: 80%;
+    padding-top: 50px;
+  padding-bottom: 20px;
+  }
+  
+  .about-me div p {
+    font-size: 18px;
+    line-height: 28px;
+    column-count: 2;
+    column-gap: 30px;
+  }
+  }
 
 /*Footer*/
 
