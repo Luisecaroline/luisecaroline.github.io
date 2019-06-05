@@ -112,7 +112,7 @@ input, select {
 
 
 body {
-  background-color: #f3f3f3;
+  background-color: #fcfcfc;
 }
 
 header {
@@ -152,8 +152,8 @@ header nav ul li {
 header nav ul li a {
   font-family:'Roboto';
   font-size: 16px;
-  font-weight: 400;
-  color: #ffffff;
+  font-weight: 600;
+  color: #fcfcfc;
   text-transform: lowercase;
 }
 
@@ -200,7 +200,7 @@ header nav ul li a {
   font-size: 24px;
   font-weight: 600;
   line-height: 60px;
-  color: #fff;
+  color: #fcfcfc;
   padding-top: 300px;
   text-align: center;
   text-shadow: 2px 2px 20px #111;
@@ -211,7 +211,7 @@ header nav ul li a {
   font-size: 18px;
   font-weight: 300;
   line-height: 30px;
-  color: #fff;
+  color: #fcfcfc;
   text-align: center;
   text-shadow: 2px 2px 20px #111;
   display: block;
@@ -224,7 +224,7 @@ header nav ul li a {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
-  color: #7598f8;
+  color: #acc111;
   text-align: center;
   display: block;
   padding-top: 20px;
@@ -268,9 +268,9 @@ header nav ul li a {
 }
 
 .wrapper h2 {
-  font-family:'Open sans';
-  font-size: 16px;
-  font-weight: 600;
+  font-family:'Roboto';
+  font-size: 20px;
+  font-weight: 400;
   color: #acc111;
   padding-top: 40px;
   padding-bottom: 30px;
@@ -301,7 +301,7 @@ header nav ul li a {
 .quote2 {
   font-family:'Roboto Condensed';
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   color: #acc111;
   width: 80%;
   margin: 0 auto;
@@ -393,7 +393,7 @@ header nav ul li a {
 .quote2 {
   font-family:'Roboto Condensed';
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 400;
   width: 100%;
   padding-bottom: 40px;
 }
@@ -446,11 +446,11 @@ header nav ul li a {
 }
 
 .about-me div p {
-  font-family:'Roboto';
+  font-family:'Roboto Condensed';
   font-size: 16px;
   font-weight: 200;
   line-height: 24px;
-  color: #111;
+  color: #4d4d4d;
   text-align: justify;
 }
 
@@ -469,71 +469,150 @@ header nav ul li a {
   }
   }
 
+  .hire-me div {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .hire-me div p {
+    font-family:'Roboto Condensed';
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 24px;
+    color: #4d4d4d;
+    text-align: center;
+  }
+  
+  .hire-me div h3 {
+    font-family:'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+    color: #666666;
+    padding-top: 25px;
+    padding-bottom: 20px;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    .hire-me div {
+      width: 80%;
+      padding-top: 50px;
+    padding-bottom: 20px;
+    }
+    
+    .hire-me div p {
+      font-size: 18px;
+      line-height: 28px;
+    }
+
+    .hire-me div h3 {
+      font-size: 18px;
+    }
+    }
+
+
+.contact {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.contact p{
+  font-family:'Roboto condensed';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #666666;
+  text-align: center;
+}
+
+.contact p a{
+  color: #acc111;
+  font-family:'Roboto condensed';
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.contact img{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  display: block;
+  padding-bottom: 30px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact {
+    width: 45%;
+    padding-bottom: 160px;
+  }
+  
+  .contact p{
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
 /*Footer*/
 
 footer {
   width: 100%;
+  height: 120px;
   padding: 40px 40;
   margin-top: 20px;
-  background-color: #BF7375;
+  background-color: rgba(35, 31, 32, 0.8);
   overflow: hidden;
 }
 
-footer ul {
+.footer-links {
   width: fit-content;
-  float: left;
-  padding-left: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 0 auto;
+  padding-top: 15px;
 }
 
-footer ul li {
+.footer-links a {
+  color: #b8b8b8;
+  font-family:'Roboto Condensed';
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-main {
+  width: fit-content;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.footer-main p {
   display: block;
-  list-style: none;
-  color: #fff;
-}
-
-footer ul li a {
+  color: #b8b8b8;
   font-family:'Roboto';
   font-size: 12px;
-  font-weight: 400;
-  color: #fff;
+  font-weight: 200;
   text-transform: lowercase;
-  line-height: 22px;
-}
-
-.footer-links-cases {
-  display: none;
-}
-
-.footer-sm {
-  width: 25px;
-  margin-right: 20px;
-  margin-top: 16px;
-  float: right;
-}
-
-.footer-sm img{
-  width: 90%;
-  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 1000px) {
-  .footer-links-cases {
-    display: block;
+  footer {
+    height: 160px;
   }
-
-  footer ul {
-    padding-right: 30px;
+  
+  .footer-links {
+    padding-top: 20px;
   }
-
-  footer ul li p {
-    font-family:'Roboto';
-    font-size: 12px;
-    font-weight: 400;
-    color: #fff;
-    text-transform: uppercase;
-    line-height: 22px;
+  
+  .footer-links a {
+    font-size: 16px;
+  }
+  
+  .footer-main {
+    padding-top: 40px;
+  }
+  
+  .footer-main p {
+    font-size: 14px;
   }
 
 }
