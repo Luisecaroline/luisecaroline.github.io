@@ -112,7 +112,7 @@ input, select {
 
 
 body {
-  background-color: #fcfcfc;
+  background-color: rgb(255, 255, 255)
 }
 
 header {
@@ -224,7 +224,7 @@ header nav ul li a {
   font-size: 18px;
   font-weight: 600;
   line-height: 30px;
-  color: #acc111;
+  color: #718de0;
   text-align: center;
   display: block;
   padding-top: 20px;
@@ -271,7 +271,7 @@ header nav ul li a {
   font-family:'Roboto';
   font-size: 20px;
   font-weight: 400;
-  color: #acc111;
+  color: #718de0;
   padding-top: 40px;
   padding-bottom: 30px;
   margin: 0 auto;
@@ -291,7 +291,7 @@ header nav ul li a {
   font-size: 14px;
   font-weight: 200;
   line-height: 20px;
-  color: #acc111;
+  color: #718de0;
   width: 80%;
   margin: 0 auto;
   padding-top: 10px;
@@ -302,7 +302,7 @@ header nav ul li a {
   font-family:'Roboto Condensed';
   font-size: 14px;
   font-weight: 400;
-  color: #acc111;
+  color: #718de0;
   width: 80%;
   margin: 0 auto;
 }
@@ -311,11 +311,11 @@ header nav ul li a {
   margin: 22px 22px 0;
   width: calc(100% - 44px);
   height: 154px;
-  background-color: #acc111;
+  background-color: #718de0;
 }
 
 .index-boxlink-square1 {
-  background-image: url('img/portfolio-01.jpg');
+  background-image: url('img/project thumbnail re.png');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -323,7 +323,7 @@ header nav ul li a {
 }
 
 .index-boxlink-square1:hover {
-  background-image: url('img/portfolio-01h.jpg');
+  background-image: url('img/project thumbnail re ho.png');
 }
 
 .index-boxlink-rectangle1 {
@@ -528,10 +528,11 @@ header nav ul li a {
 }
 
 .contact p a{
-  color: #acc111;
+  color: #718de0;
   font-family:'Roboto condensed';
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
+  line-height: 28px;
 }
 
 .contact img{
@@ -552,6 +553,11 @@ header nav ul li a {
   .contact p{
     font-size: 18px;
     line-height: 28px;
+  }
+
+  .contact p a{
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 
