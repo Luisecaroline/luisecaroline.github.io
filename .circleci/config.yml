@@ -10,7 +10,8 @@ jobs:
           command: |
             apk add --no-cache curl
             echo "Deploying project ..."
-            find ./src/* -type f -exec curl -u "${FTP_USER}":"${FTP_PW}" --ftp-create-dirs -T {} ftp://"${FTP_HOST}"/website/{} \;
+            cd ./src
+            find ./ -type f -exec curl -u "${FTP_USER}":"${FTP_PW}" --ftp-create-dirs -T {} ftp://"${FTP_HOST}"/website/{} \;
 
 workflows:
   version: 2
