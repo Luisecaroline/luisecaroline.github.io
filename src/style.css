@@ -318,6 +318,21 @@ header nav ul li a {
   margin: 0 auto;
 }
 
+.line {
+  padding-top: 20px;
+}
+
+.line hr {
+  border: 0;
+  height: 1px;
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+  background: #4d4d4d;
+  background-image: linear-gradient(to right, #ccc, #4d4d4d, #ccc);
+}
+/* Gradient color1 - color2 - color1 */
+
 .index-links div {
   margin: 22px 22px 0;
   width: calc(100% - 44px);
@@ -413,6 +428,10 @@ header nav ul li a {
   font-weight: 400;
   width: 100%;
   padding-bottom: 40px;
+}
+
+.line hr {
+  width: 100%;
 }
 
   .index-links {
